@@ -71,6 +71,7 @@
   height: 50vh;
   opacity: 0;
   transition: opacity 0.3s ease;
+  background-color: rgb(190, 190, 190);
 }
 
 .opacity{
