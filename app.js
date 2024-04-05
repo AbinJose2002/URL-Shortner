@@ -1,5 +1,8 @@
-let toggleBtn = document.querySelector("toggle_btn");
-let dropMenu = document.querySelector("drop-menu");
-toggleBtn.addEventListener("click",()=>{
-    dropMenu.classList.add("open")
-})
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.querySelector(".toggle-btn");
+    const dropMenu = document.querySelector(".drop-container");
+
+    toggleBtn.addEventListener("click", () => {
+        dropMenu.classList.toggle("opacity");
+    });
+});
