@@ -68,7 +68,7 @@
 .drop-container{
   position: absolute;
   width: 100vw;
-  height: 50vh;
+  height: 30vh;
   opacity: 0;
   transition: opacity 0.3s ease;
   background-color: rgb(190, 190, 190);
@@ -97,7 +97,7 @@
 }
 
 .drop-menu li{
-  padding: 2em 0;
+  padding: 1.5em 0;
 }
 
 .main{
