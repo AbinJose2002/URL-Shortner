@@ -141,3 +141,15 @@
     font-size: 2em;
   }
 }
+
+
+/* home section */
+
+.home{
+  background-color: red;
+  min-height: 80vh;
+}
+
+.home-main, .home-img{
+  height: 100%;
+}
