@@ -7,149 +7,46 @@
     font-family: Poppins;
 }
 
-.navbar{
-  width: 100%;
-  padding: 0 3em 3em 3em;
-  display: flex;
-  flex-direction: row;
-}
-
-.nav-left{
-  display: flex;
-  width: 50%;
-  padding: 2em 0 0 2em;
-}
-
-.nav-list{
-  display: flex;
-  margin: auto 0; 
-}
-
-.nav-list a{
-  color: #5c5c5c;
-  text-decoration: none;
-  padding: 0 1em;
-}
-
-.nav-list a:hover{
-  color: black
-}
-
-.nav-list{
-  list-style: none;
-}
-
-.nav-right{
-  width: 50%;
-  /* background-color: red; */
-  display: flex;
-  justify-content: flex-end;
-  padding: 2em 2em 0 0;
-}
-
-.nav-right a{
-  padding: 0 1em;
-  color: #5c5c5c;
-  text-decoration: none;
-}
-
-.toggle-btn{
-  display: none;
-}
-
-.sign-up-btn{
-  border: 1px solid #10d7d8 ;
-  border-radius: 20px;
-  background-color: #10d7d8;
-  color: white!important;
-  padding: 4px;
-}
-
-.drop-container{
-  position: absolute;
-  width: 100%;
-  height:60vh;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  background-color: rgb(190, 190, 190);
-}
-
-.opacity{
-  opacity: 1;
-}
-
-.drop-menu{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.drop-list a{
-  color: black;
-  text-decoration: none;
-}
-
-.drop-list{
-  list-style: none;
-}
-
-.drop-menu li{
-  padding: 1.5em 0;
-}
-
-.main{
-  width: 100%;
-  height: 90vh;
-}
-
-.fa-solid{
-  font-size: 50px;
-}
-
-
-.logo {
-  width: 150px ;
-  height: auto ; 
-}
-
-
-@media (max-width: 1000px){
-  .nav-list{
-    display: none;
-  }
-
-  .nav-right{
-    display: none;
-  }
-
-  .toggle-btn{
-    display: block;
-  }
-
-  .logo {
-    width: 200 ;
-    height: auto ; 
-  }
-
-  .fa-solid{
-    font-size: 50px;
-  }
-
-  .drop-list a{
-    font-size: 2em;
-  }
-}
-
-
 /* home section */
 
-.home{
-  background-color: red;
-  min-height: 80vh;
+.nav-link{
+    color: rgb(143, 143, 143) !important;
 }
 
-.home-main, .home-img{
-  height: 100%;
+.nav-link:hover{
+    color: rgb(46, 46, 46) !important   
+}
+
+.btn{
+    border-radius: 20px !important;
+    background-color: #25d5d7;
+}
+
+.home-desc{
+    height: auto;
+}
+
+.home-head{
+    font-size: 4em;
+}
+
+.home-para{
+    color: rgb(103, 103, 103);          
+}
+
+@media  (max-width:md){ 
+    .home-desc h1{
+        font-size: 10em !important;
+    }
+}
+
+/* link generation section */
+
+.link-sec{
+    background: url("../assets/bg-boost-desktop.svg");
+    background-color: #3a3152;
+}
+
+.link-sec, .link-field{
+    border-radius: 20px;
 }
