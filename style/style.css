@@ -34,7 +34,7 @@
     color: rgb(103, 103, 103);          
 }
 
-@media  (max-width:md){ 
+@media  screen and (max-width:768px){ 
     .home-desc h1{
         font-size: 10em !important;
     }
@@ -49,4 +49,10 @@
 
 .link-sec, .link-field{
     border-radius: 20px;
+}
+
+.link-block{
+    background-color: hwb(0 95% 5% / 0.842);
+    border-radius: 10px;
+    opacity: 0;
 }
