@@ -2,7 +2,7 @@
 let x
 const shortBtn = document.querySelector(".btn-shorten");
 shortBtn.addEventListener("click", async() => {
-const linkField = document.querySelector(".link-field").value
+const linkField = document.querySelector(".link-field").value 
 
 
 const url = 'https://url-shortener-service.p.rapidapi.com/shorten';
